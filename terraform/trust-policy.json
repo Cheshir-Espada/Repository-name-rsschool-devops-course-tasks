@@ -9,7 +9,8 @@
       "Action": "sts:AssumeRoleWithWebIdentity",
       "Condition": {
         "StringLike": {
-          "token.actions.githubusercontent.com:sub": "repo:alexnesterenko/rsschool-devops-course-tasks:*"
+          "token.actions.githubusercontent.com:sub": "repo:Cheshir-Espada/rsschool-devops-course-tasks:*"
+
 
         }
       }
